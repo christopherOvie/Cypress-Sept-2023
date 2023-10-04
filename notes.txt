@@ -1,0 +1,30 @@
+//cypress version
+//qa  team using sane version
+
+/**
+
+
+e2e-to create the spec files
+fixtures - to create the test data files
+support  -to createb the support files,to  import packages and reusable functions
+node_modules -to store bin and libraries files
+cypress.config -to configure the global configuration
+package.json for the dependenciees manager and to create npm script for cmd line
+package.lock.json for the dependenciees manager and to lock the package
+
+
+//Prettier - Code formatter ,esc mocha snippet add only
+api
+web
+database checking
+mobile-view
+android
+accessibility
+bisual testing
+intercepting testing
+unit testing
+performance testing  using google light house analysis
+//vsc shortcut  for VSC Code
+control+shift +n  0pen new windoew
+
+**/

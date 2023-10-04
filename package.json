@@ -1,0 +1,26 @@
+{
+  "name": "cypress-sept-2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "triggerAllTests-headless": "npx cypress run",
+    "triggerAllTests-headed": "npx cypress run --headed",
+    "triggerAllTests-chrome": "npx cypress run --browser chrome",
+    "triggerAllTests-webdriveruni": "npx cypress run --spec cypress/e2e/week-2"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "@types/faker": "^6.6.9",
+    "cy-verify-downloads": "^0.2.1",
+    "cypress": "^13.3.0",
+    "cypress-downloadfile": "^1.2.3",
+    "cypress-iframe": "^1.0.1",
+    "faker": "^6.6.6"
+  },
+  "dependencies": {
+    "node-xlsx": "^0.23.0"
+  }
+}
